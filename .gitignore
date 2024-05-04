@@ -18,12 +18,6 @@
 # - Visual Studio specific
 # - OS specific
 
-###########################
-### Build configuration ###
-###########################
-
-/custom.py
-misc/hooks/pre-commit-custom-*
 
 #############################
 ### Godot generated files ###
