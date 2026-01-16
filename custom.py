@@ -1,9 +1,18 @@
-target = "template_release"
-tools = "no"  # 不编译编辑器，只做导出模板
-disable_3d = "yes"  # 2D项目关3D
-# 禁用模块（按项目需求增删）
+# Generated using https://godot-build-options-generator.github.io
+
+production = "yes"
+disable_3d = "yes"
+brotli = "no"
+module_bmp_enabled = "no"
+module_dds_enabled = "no"
 module_enet_enabled = "no"
+module_gltf_enabled = "no"
+module_gridmap_enabled = "no"
+module_hdr_enabled = "no"
+module_mobile_vr_enabled = "no"
+module_openxr_enabled = "no"
+module_raycast_enabled = "no"
+module_upnp_enabled = "no"
+module_webrtc_enabled = "no"
 module_websocket_enabled = "no"
-module_svg_enabled = "no"
-module_theora_enabled = "no"
-build_profile = "./build_profile.gdbuild"  # 之前保存的配置
+module_webxr_enabled = "no"
